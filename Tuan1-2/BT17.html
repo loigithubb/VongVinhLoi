@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .year{
+            width: 30px;
+        }
+        .container{
+            
+            width: 600px;
+            margin: auto;
+            background-color: rgb(250, 197, 133);
+            box-shadow: 0 0 20px gray;
+            padding: 10px;
+            
+        }
+        h3{
+            text-align: center;
+        }
+        .btn{
+            text-align: center;
+        }
+        ul li {
+            list-style: decimal;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form">
+            <h3>Survey Form</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non incidunt distinctio quasi amet blanditiis tempora!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime omnis distinctio cumque nesciunt rem ut, facilis delectus saepe voluptas harum.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, eligendi! Vel corporis odit possimus adipisci cupiditate voluptatum voluptates. Quasi error qui quidem vero commodi sunt quaerat rerum obcaecati perspiciatis a.</p>
+            <ol>
+                <li>What is your name?</li>
+                <input type="text">
+                <li>What is your date of birth?</li>
+                <div class="li2">
+                    <label for="">Motnh</label>
+                    <select name="" id="">
+                        <optgroup>
+                            <option value="">january</option>
+                            <option value="">Monday</option>
+                        </optgroup>
+                    </select>
+                    <label for="">Date</label>
+                    <select name="" id="">
+                        <optgroup>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </optgroup>
+                    </select>
+                    <label for="">Year</label>
+                    <input class="year" type="text">
+                </div>
+                <li>What is your mailling address(if you would like to have a hard copy of our catalog sent to you)?</li>
+                <textarea name="" id="" cols="60" rows="5">Number/P.O. Box/route:State/Zip:</textarea>
+                <li>What is your email address?</li>
+                <input type="text">
+                <li>Have you viewed our online product catalog?</li>
+                <input type="radio">
+                <label for="">Yes</label>
+                <input type="radio">
+                <label for="">No</label>
+                <li>if so, what product(s), besides the one you are ordering, might you be interested in purchasing in the future? (check all that apply.)</li>
+                <div>
+                    <input type="checkbox">
+                    <label for="">VCR</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">Big Screen TV</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">Audio Equipment</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">Vieo Equipment</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">Camere Equipment</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">Other</label>
+                    <input type="text" placeholder="Please list" class="other">
+                </div>
+                <li>Do you have any questions, comments or suggestions before proceeding to the Order Form?</li>
+                <textarea name="" id="" cols="60" rows="5" >Your Input:</textarea>
+            </ol>
+            <div class="btn">
+                <input type="button" value="Send form">
+                <input type="button" value="Clear form">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
